@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router";
+import Header from "./pages/Header";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
@@ -8,6 +9,7 @@ import { NavLink } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
+      <Header /> {}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
