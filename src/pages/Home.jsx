@@ -9,8 +9,8 @@ export default function Home() {
         <div className={styles.stars3} />
       </div>
       <div className={styles.introtext}>
-        <h1>Hej! Jeg er Emil Lassen</h1>
-        <h2>Fremtidig Multimedie Designer</h2>
+        <h1>Hi! I'm Emil Lassen</h1>
+        <h2>Future Multimedia Designer</h2>
       </div>
     </div>
   );
