@@ -1,15 +1,11 @@
 .introtext {
   color: #4af155;
-  text-align: center;
-  font-size: 1.5rem;
-  position: absolute;
-  width: 60vw;
-  z-index: 2;
-  top: 50vh;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-} 
- 
+  text-align: right;
+  font-size: 3rem;
+  margin-right: 14vw; /* Adjust as needed */
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
  
  
 .background {
