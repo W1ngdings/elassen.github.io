@@ -3,7 +3,7 @@ import styles from '../components/Home.module.css';
 export default function Home() {
   return (
     <div>
-      <div id='home' className={styles.background}>
+      <div className={styles.background}>
         <div className={styles.stars} />
         <div className={styles.stars2} />
         <div className={styles.stars3} />

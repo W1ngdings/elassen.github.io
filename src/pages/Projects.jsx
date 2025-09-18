@@ -1,19 +1,37 @@
 import styles from '../components/Projects.module.css';
-import { Link } from "react-router-dom";
+
 
 export default function Projects() {
   return (
-    <div className={styles.projects}>
-      <h1>My Projects</h1>
+    <div className={styles.background}>
+      <h1 className={styles.introtext}>My previous projects</h1>
 
-      <Link to="/about">About</Link>
-      <Link to="/">Home</Link>
-      <Link to="/contact">Contact</Link>
+      <div className={styles.row}>
+        <img className={styles.image} src="src/assets/gamedify-img.webp" alt="" />
+        <p></p>
+      </div>
+
+      <div className={styles.row}>
+        <img className={styles.image} src="src/assets/dengulecafe-img.webp" alt="" />
+        <p></p>
+      </div>
+
+      <div className={styles.row}>
+        <img className={styles.image} src="src/assets/radar-img.webp" alt="" />
+        <p></p>
+      </div>
+
+      <div className={styles.row}>
+        <img className={styles.image} src="src/assets/zerobuzz-img.webp" alt="" />
+        <p></p>
+      </div>
+
+      <div className={styles.row}>
+        <img className={styles.image} src="src/assets/kenderdubryster-img.webp" alt="" />
+        <p></p>
+      </div>
     </div>
   );
 }
 
 
-function ProjectsStyle() {
-  return <home className={styles.projects}>This is the projects page</home>;
-}

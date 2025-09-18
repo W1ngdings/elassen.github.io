@@ -5,7 +5,7 @@ export default function Header() {
   return (
     
     <header className={style.header}>
-      <img src="/src/assets/glorp.icon.svg" alt="" className={style.icon} />
+      <img src="/src/assets/glorp.webp" alt="" className={style.icon} />
       <nav className={style.nav}>
         <NavLink to="/" end>Home</NavLink>
         <NavLink to="/about">About</NavLink>
