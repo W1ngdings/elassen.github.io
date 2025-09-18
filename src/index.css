@@ -72,13 +72,24 @@ button:focus-visible {
   background: radial-gradient(ellipse at bottom, #7a8fa6 0%, #e0e5ec 100%);
   color: #fd6500;
 }
-.dark a,
-.dark a:visited {
+.dark a, .dark a:visited {
   color: #4af155 !important;
 }
 
-.light a,
-.light a:visited {
+.light a, .light a:visited {
   color: #fd6500 !important;
 }
 
+ .light a:hover {
+  background-color: #7a8fa6;
+  border-radius: 8px;
+  width: fit-content;
+  text-align: center;
+ }
+
+  .dark a:hover {
+  background-color: #1B2735;
+  border-radius: 8px;
+  width: fit-content;
+  text-align: center;
+ }
