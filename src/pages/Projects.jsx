@@ -27,7 +27,7 @@ export default function Projects() {
       </div>
 
       <div className={styles.row}>
-        <img className={styles.image} src="src/assets/kenderdubryster-img.webp" alt="" />
+        <img className={styles.image} src="src/assets/kenderdubrysterne-img.webp" alt="" />
         <p></p>
       </div>
     </div>
