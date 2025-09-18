@@ -12,7 +12,7 @@ export default function Home() {
       <div className={styles.introtext}>
         <h1>Hi! I'm Emil Lassen</h1>
         <h2 className="animate__animated animate__fadeIn animate__delay-1s">
-          Future Frontend Developer
+          Future Multimedia Designer
         </h2>
       </div>
     </div>
