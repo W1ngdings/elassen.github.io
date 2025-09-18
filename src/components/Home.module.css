@@ -1,9 +1,19 @@
+
+@font-face {
+  font-family: 'spacemono';
+  src: url(/css/fonts/SpaceMono-Regular.ttf) format('truetype');
+}
+
+
+
+
 .introtext {
   color: #4af155;
   text-align: center;
   font-size: 1.5rem;
+  font-family: 'spacemono', sans-serif;
   position: absolute;
-  width: 60vw;
+  width: 80vw;
   z-index: 2;
   top: 50vh;
   left: 50vw;

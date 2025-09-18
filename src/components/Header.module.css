@@ -1,3 +1,10 @@
+
+
+@font-face {
+  font-family: 'spacemono';
+  src: url(/css/fonts/SpaceMono-Regular.ttf) format('truetype');
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -6,6 +13,7 @@
   padding-top: 2vh;
   z-index: 3;
   width: 100vw;
+  font-family: 'spacemono', sans-serif;
 }
 
 .nav {
