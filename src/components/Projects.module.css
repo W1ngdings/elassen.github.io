@@ -6,7 +6,6 @@
 
 
 .introtext {
-  color: #4af155;
   text-align: right;
   font-size: 2rem;
   margin-right: 9vw; 
@@ -15,17 +14,6 @@
   font-family: 'spacemono', sans-serif;
 }
  
- 
-.background {
-  overflow: hidden;
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-  min-height: 100vh;
-  width: 100vw;
-  position: relative;
-  padding-top: 6rem; 
-}
-
-
 .row {
   display: flex;
   align-items: center;
@@ -40,6 +28,7 @@
   margin-right: 2rem;
   display: block;
   border-radius: 8px;
+  border: #ffffff 4px solid;
 }
 
 .text {

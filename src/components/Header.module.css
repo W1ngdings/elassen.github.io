@@ -18,13 +18,13 @@
 
 .nav {
   display: flex;
+  align-items: center;
   gap: 2rem;
   font-size: 1.5rem;
   padding-right: 2rem;
 }
 
 .nav a {
-  color: #4af155 !important;
   text-decoration: none;
   font-weight: bold;
 }
@@ -34,4 +34,15 @@
   width: 4rem;
   padding-left: 2rem;
 
+}
+
+.toggle {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }

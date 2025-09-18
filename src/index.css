@@ -13,14 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  text-decoration: none;
-}
-a:hover {
-  color: #b3b6ff;
-}
-
 body {
   margin: 0;
   display: flex;
@@ -58,10 +50,35 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
-    color: #747bff;
-  }
   button {
     background-color: #f9f9f9;
   }
 }
+
+.dark {
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  color: #4af155;
+}
+
+.light {
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #7a8fa6 0%, #e0e5ec 100%);
+  color: #fd6500;
+}
+.dark a,
+.dark a:visited {
+  color: #4af155 !important;
+}
+
+.light a,
+.light a:visited {
+  color: #fd6500 !important;
+}
+

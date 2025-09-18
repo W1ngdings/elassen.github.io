@@ -1,35 +1,26 @@
-import { BrowserRouter, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./pages/Header";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(true);
   return (
-    <BrowserRouter>
-      <Header /> {}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
+    <div className={darkMode ? "dark" : "light"}>
+      <BrowserRouter>
+        <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
-
-
-
-<nav>
-  <NavLink to="/" end>
-    Home
-  </NavLink>
-  <NavLink to="/project">Project</NavLink>
-  <NavLink to="/about">About</NavLink>
-  <NavLink to="/contact">Contact</NavLink>
-</nav>;
 export default App;
-
