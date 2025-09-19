@@ -90,6 +90,6 @@ button:focus-visible {
   .dark a:hover {
   background-color: #1B2735;
   border-radius: 8px;
-  width: fit-content;
+  width: max-content;
   text-align: center;
  }
