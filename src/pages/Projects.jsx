@@ -4,7 +4,7 @@ import styles from '../components/Projects.module.css';
 export default function Projects() {
   return (
     <div className={styles.background}>
-      <h1 className={styles.introtext}>My previous projects</h1>
+      <h1 className={styles.introtext}>Previous projects</h1>
 
       <div className={styles.row}>
         <img className={styles.image} src="/images/gamedify-img.webp" alt="" />

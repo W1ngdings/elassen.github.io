@@ -8,7 +8,7 @@
 .introtext {
   text-align: right;
   font-size: 3rem;
-  margin-right: 6vw; 
+  margin-right: 11vw; 
   margin-top: 10rem;
   margin-bottom: 3rem;
   font-family: 'spacemono', sans-serif;
@@ -22,9 +22,9 @@
 }
 
 .image {
-  width: 35rem;          /* Fixed width */
-  height: 20rem;         /* Fixed height */
-  object-fit: cover;     /* Ensures images fill the box without distortion */
+  width: 35rem;          
+  height: 20rem;         
+  object-fit: cover;     
   margin-left: 2rem;
   margin-right: 2rem;
   display: block;

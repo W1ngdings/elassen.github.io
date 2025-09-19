@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About darkMode={darkMode} />} />
           <Route path="/contact" element={<Contact darkMode={darkMode} />} />
         </Routes>
       </BrowserRouter>
