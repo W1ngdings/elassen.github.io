@@ -1,10 +1,31 @@
 .introtext {
-  color: #4af155;
-  text-align: right;
-  font-size: 2rem;
-  margin-right: 9vw; 
-  margin-top: 3rem;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 10rem;
   margin-bottom: 3rem;
+  font-family: 'spacemono', sans-serif;
+}
+
+.socials {
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-left: 50vw;
+  margin-top: 25vh;
+}
+
+img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.email {
+  text-align: center;
+  position: absolute;
+  font-size: 2rem;
+  margin-top: 20rem;
   font-family: 'spacemono', sans-serif;
 }
  

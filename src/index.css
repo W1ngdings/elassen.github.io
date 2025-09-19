@@ -93,3 +93,11 @@ button:focus-visible {
   width: max-content;
   text-align: center;
  }
+
+ .light p {
+  color: #000000;
+ }
+
+  .dark p {
+    color: #ffffff;
+  }
