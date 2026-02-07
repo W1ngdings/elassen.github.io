@@ -6,7 +6,7 @@ export default function About({ darkMode}) {
     <div>
       <h1 className={styles.introtext}>About Me</h1>
       <div className={styles.aboutContainer}>
-        <img className={styles.portrait} src={darkMode? "/images/portrait.jpg": "/images/portrait.jpg"} alt="Portrait"/>
+        <img className={styles.portrait} src={darkMode? "/images/portfolioimg.png": "/images/portfolioimg.png"} alt="Portrait"/>
         <p className={styles.aboutText}>I'm Emil, a future multimedia designer and frontend developer. I'm always curious about learning new skills and improving on the skills I already possess, there's always something new to learn in my experience. I am passionate about creating and finding creative ways to give customers the best possible experience when using digital products.</p>
       </div>
 
